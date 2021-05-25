@@ -14,6 +14,9 @@ struct CategoryView: View {
     var body: some View {
         VStack {
             Category.categories[category].image
+                .resizable()
+                .scaledToFit()
+                .frame(width: 40)
         }
     }
 }
