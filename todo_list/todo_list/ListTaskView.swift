@@ -16,6 +16,16 @@ struct ListTaskView: View {
             List(tasks.tasks) { task in
                 Text(task.task)
             }
+            .navigationBarTitle("Tasks", displayMode: .inline)
+            .navigationBarColor(UIColor(named: "ElectronBlue"), UIColor(named: "SwanWhite"))
+                .toolbar {
+                    // Es para poner el título
+                    ToolbarItem(placement: .principal) {
+                        Text("Tasks")
+                            .font(.title)
+                            .foregroundColor(Color("SwanWhite"))
+                    }
+                }
         }
     }
 }
