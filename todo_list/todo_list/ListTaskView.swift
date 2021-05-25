@@ -20,6 +20,20 @@ struct ListTaskView: View {
                             destination: AddEditTaskView(tasks: tasks, task: task, mode: .editTask),
                             label: {
                                 RowTaskView(task: task)
+                                    .contextMenu {
+                                        Button {
+                                            
+                                        } label: {
+                                            HStack {
+                                                
+                                                if task.completed {
+                                                    
+                                                } else {
+                                                    Text("Mark as finished")
+                                                }
+                                            }
+                                        }
+                                    }
                             })
                     }
                     .onDelete { indexSet in

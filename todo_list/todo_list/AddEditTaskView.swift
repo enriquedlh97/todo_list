@@ -59,7 +59,7 @@ struct AddEditTaskView: View {
                 .modifier(Subtitle())
                 .padding(20)
             Toggle(isOn: $task.completed) {
-                Text("Task terminada")
+                Text("Task completed")
                     .modifier(Subtitle())
             }
             .padding([.trailing,.leading],80)
