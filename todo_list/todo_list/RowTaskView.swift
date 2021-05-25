@@ -14,7 +14,7 @@ struct RowTaskView: View {
     var body: some View {
         VStack {
             HStack {
-                StatusView(status: task.status)
+                StatusView(status: task.completed ? Status.indexCompleted : task.status)
                 Spacer()
                 Text(task.task)
                     .modifier(Label())
