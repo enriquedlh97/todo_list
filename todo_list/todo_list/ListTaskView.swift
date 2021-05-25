@@ -14,7 +14,7 @@ struct ListTaskView: View {
     var body: some View {
         NavigationView {
             List(tasks.tasks) { task in
-                Text(task.task)
+                RowTaskView(task: task)
             }
             .listStyle(PlainListStyle())
             .navigationBarTitle("Tasks", displayMode: .inline)
