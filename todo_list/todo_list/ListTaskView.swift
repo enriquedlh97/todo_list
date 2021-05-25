@@ -33,10 +33,10 @@ struct ListTaskView: View {
                             })
                     }
                     .onDelete { indexSet in
-                                        for index in indexSet {
-                                            tasks.removeData(task: tasks.tasks[index])
-                                        }
-                                    }
+                        for index in indexSet {
+                            tasks.removeData(task: tasks.tasks[index])
+                        }
+                    }
                 }
                 VStack {
                     Spacer()

@@ -26,13 +26,13 @@ class TaskModel: ObservableObject {
                 print("No documents")
                 return
             }
-
+            
             self.tasks = documents.compactMap { queryDocumentSnapshot -> Task? in
                 return try? queryDocumentSnapshot.data(as: Task.self)
             }
         }
     }
-
+    
     // Función para agregar datos a la base de datos
     func addData(task: Task) {
         do {
@@ -42,7 +42,7 @@ class TaskModel: ObservableObject {
             print(error)
         }
     }
-
+    
     // Función para actualizar datos en la base de datos
     func updateData(task: Task) {
         if let taskID = task.id {
@@ -54,7 +54,7 @@ class TaskModel: ObservableObject {
             }
         }
     }
-
+    
     // Función para borrar datos de la base de datos
     func removeData(task: Task) {
         if let taskID = task.id {
