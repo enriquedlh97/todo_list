@@ -12,8 +12,10 @@ struct ListTaskView: View {
     @ObservedObject var tasks = TaskModel()
     
     var body: some View {
-        List(tasks.tasks) { task in
-            Text(task.task)
+        NavigationView {
+            List(tasks.tasks) { task in
+                Text(task.task)
+            }
         }
     }
 }
