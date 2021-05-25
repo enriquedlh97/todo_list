@@ -32,7 +32,6 @@ struct Task: Identifiable, Codable {
 }
 
 extension Task {
-    public static var dummy = [
+    public static var dummy =
         Task(task: "Task 1", category: 0, status: 0, completed: false, creationDate: Date(), dueDate: Date())
-    ]
 }
