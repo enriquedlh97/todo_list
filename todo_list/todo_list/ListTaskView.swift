@@ -12,8 +12,8 @@ struct ListTaskView: View {
     @ObservedObject var tasks = TaskModel()
     
     var body: some View {
-        ZStack {
-            NavigationView {
+        NavigationView {
+            ZStack {
                 List(tasks.tasks) { task in
                     RowTaskView(task: task)
                 }
