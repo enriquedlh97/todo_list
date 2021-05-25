@@ -18,7 +18,7 @@ struct todo_listApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ListTaskView()
         }
     }
 }
