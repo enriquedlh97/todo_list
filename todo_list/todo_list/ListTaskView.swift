@@ -15,7 +15,11 @@ struct ListTaskView: View {
         NavigationView {
             ZStack {
                 List(tasks.tasks) { task in
-                    RowTaskView(task: task)
+                    NavigationLink(
+                        destination: AddEditTaskView(tasks: tasks, task: task, mode: .editTask),
+                        label: {
+                            RowTaskView(task: task)
+                        })
                 }
                 VStack {
                     Spacer()

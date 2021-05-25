@@ -19,7 +19,7 @@ struct Subtitle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.custom("Baloo2-Bold", size: 20))
-            .foregroundColor(Color("SwanWhite"))
+            .foregroundColor(Color("ElectronBlue"))
     }
 }
 

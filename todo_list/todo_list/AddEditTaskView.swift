@@ -25,6 +25,7 @@ struct AddEditTaskView: View {
                     .textFieldStyle(RoundedBorderTextFieldStyle())
                     .modifier(Label())
             }
+            .padding(.horizontal, 20)
             Text(Status.images[task.status].text)
                 .modifier(Subtitle())
             HStack {
