@@ -13,8 +13,12 @@ struct RowTaskView: View {
     
     var body: some View {
         VStack {
-            Text(task.task)
-                .modifier(Label())
+            HStack {
+                StatusView(status: task.status)
+                Text(task.task)
+                    .modifier(Label())
+                CategoryView(category: task.category)
+            }
         }
     }
 }
