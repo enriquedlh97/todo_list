@@ -22,6 +22,7 @@
 		53FD3C90265D52FE00929F5F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD3C8F265D52FE00929F5F /* Task.swift */; };
 		53FD3C93265D53B400929F5F /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD3C92265D53B400929F5F /* Category.swift */; };
 		53FD3C96265D546B00929F5F /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD3C95265D546B00929F5F /* Status.swift */; };
+		53FD3C99265D551C00929F5F /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD3C98265D551C00929F5F /* TaskModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		53FD3C8F265D52FE00929F5F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		53FD3C92265D53B400929F5F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		53FD3C95265D546B00929F5F /* Status.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		53FD3C98265D551C00929F5F /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				53FD3C8F265D52FE00929F5F /* Task.swift */,
 				53FD3C92265D53B400929F5F /* Category.swift */,
 				53FD3C95265D546B00929F5F /* Status.swift */,
+				53FD3C98265D551C00929F5F /* TaskModel.swift */,
 				531EAEA2265C86D7009AF8E3 /* Info.plist */,
 				531EAEA9265C8965009AF8E3 /* GoogleService-Info.plist */,
 				531EAE9F265C86D7009AF8E3 /* Preview Content */,
@@ -178,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53FD3C99265D551C00929F5F /* TaskModel.swift in Sources */,
 				531EAE9C265C86D6009AF8E3 /* ContentView.swift in Sources */,
 				53FD3C96265D546B00929F5F /* Status.swift in Sources */,
 				53FD3C90265D52FE00929F5F /* Task.swift in Sources */,
