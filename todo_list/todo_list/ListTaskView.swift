@@ -29,22 +29,6 @@ struct ListTaskView: View {
                                                 Image(systemName: "xmark.circle.fill")
                                             }
                                         }
-                                        Button {
-                                            
-                                        } label: {
-                                            HStack {
-                                                Text("Mark as finished")
-                                                Image(systemName: "checkmark.circle")
-                                            }
-                                        }
-                                        Button {
-                                            
-                                        } label: {
-                                            HStack {
-                                                Text("Mark as unfinished")
-                                                Image(systemName: "wrench.and.screwdriver")
-                                            }
-                                        }
                                     }
                             })
                     }
