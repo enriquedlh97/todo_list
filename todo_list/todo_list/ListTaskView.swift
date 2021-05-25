@@ -19,7 +19,7 @@ struct ListTaskView: View {
                 }
                 VStack {
                     Spacer()
-                    NavigationLink(destination: AddEditTaskView(task: Task.dummy, mode: .addTask), label: {
+                    NavigationLink(destination: AddEditTaskView(tasks: tasks, task: Task.dummy, mode: .addTask), label: {
                         Image(systemName: "plus.circle.fill")
                             .font(.system(size: 60.0))
                             .foregroundColor(Color("Emerald"))
