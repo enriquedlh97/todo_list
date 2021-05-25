@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		531D325C265D7A21003743C4 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D325B265D7A21003743C4 /* NavigationBarModifier.swift */; };
 		531EAE9A265C86D6009AF8E3 /* todo_listApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531EAE99265C86D6009AF8E3 /* todo_listApp.swift */; };
 		531EAE9C265C86D6009AF8E3 /* ListTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */; };
 		531EAE9E265C86D7009AF8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531EAE9D265C86D7009AF8E3 /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		531D325B265D7A21003743C4 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		531EAE96265C86D6009AF8E3 /* todo_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531EAE99265C86D6009AF8E3 /* todo_listApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_listApp.swift; sourceTree = "<group>"; };
 		531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				531EAE99265C86D6009AF8E3 /* todo_listApp.swift */,
 				53FD3C84265D516000929F5F /* Colors.xcassets */,
 				531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */,
+				531D325B265D7A21003743C4 /* NavigationBarModifier.swift */,
 				531EAE9D265C86D7009AF8E3 /* Assets.xcassets */,
 				53FD3C8F265D52FE00929F5F /* Task.swift */,
 				53FD3C92265D53B400929F5F /* Category.swift */,
@@ -205,6 +208,7 @@
 			files = (
 				53FD3C99265D551C00929F5F /* TaskModel.swift in Sources */,
 				531EAE9C265C86D6009AF8E3 /* ListTaskView.swift in Sources */,
+				531D325C265D7A21003743C4 /* NavigationBarModifier.swift in Sources */,
 				53FD3CA5265D5CF000929F5F /* Modifiers.swift in Sources */,
 				53FD3C96265D546B00929F5F /* Status.swift in Sources */,
 				53FD3C90265D52FE00929F5F /* Task.swift in Sources */,
