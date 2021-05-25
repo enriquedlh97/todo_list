@@ -22,7 +22,7 @@ struct ListTaskView: View {
                                 RowTaskView(task: task)
                                     .contextMenu {
                                         Button {
-                                            
+                                            tasks.removeData(task: task)
                                         } label: {
                                             HStack {
                                                 Text("Delete")
