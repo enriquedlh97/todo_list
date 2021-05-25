@@ -10,6 +10,7 @@
 		531D325C265D7A21003743C4 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D325B265D7A21003743C4 /* NavigationBarModifier.swift */; };
 		531D325F265D7CD1003743C4 /* RowTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D325E265D7CD1003743C4 /* RowTaskView.swift */; };
 		531D3262265D7E73003743C4 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D3261265D7E73003743C4 /* StatusView.swift */; };
+		531D3265265D7FD8003743C4 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D3264265D7FD8003743C4 /* CategoryView.swift */; };
 		531EAE9A265C86D6009AF8E3 /* todo_listApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531EAE99265C86D6009AF8E3 /* todo_listApp.swift */; };
 		531EAE9C265C86D6009AF8E3 /* ListTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */; };
 		531EAE9E265C86D7009AF8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531EAE9D265C86D7009AF8E3 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		531D325B265D7A21003743C4 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
 		531D325E265D7CD1003743C4 /* RowTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowTaskView.swift; sourceTree = "<group>"; };
 		531D3261265D7E73003743C4 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		531D3264265D7FD8003743C4 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		531EAE96265C86D6009AF8E3 /* todo_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531EAE99265C86D6009AF8E3 /* todo_listApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_listApp.swift; sourceTree = "<group>"; };
 		531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */,
 				531D325E265D7CD1003743C4 /* RowTaskView.swift */,
 				531D3261265D7E73003743C4 /* StatusView.swift */,
+				531D3264265D7FD8003743C4 /* CategoryView.swift */,
 				531D325B265D7A21003743C4 /* NavigationBarModifier.swift */,
 				531EAE9D265C86D7009AF8E3 /* Assets.xcassets */,
 				53FD3C8F265D52FE00929F5F /* Task.swift */,
@@ -214,6 +217,7 @@
 			files = (
 				53FD3C99265D551C00929F5F /* TaskModel.swift in Sources */,
 				531EAE9C265C86D6009AF8E3 /* ListTaskView.swift in Sources */,
+				531D3265265D7FD8003743C4 /* CategoryView.swift in Sources */,
 				531D3262265D7E73003743C4 /* StatusView.swift in Sources */,
 				531D325C265D7A21003743C4 /* NavigationBarModifier.swift in Sources */,
 				53FD3CA5265D5CF000929F5F /* Modifiers.swift in Sources */,
