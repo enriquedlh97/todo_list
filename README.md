@@ -1,4 +1,4 @@
-# <img src="https://github.com/enriquedlh97/todo_list/blob/main/todo_list/todo_list/Assets.xcassets/AppIcon.appiconset/120.png" width="120"> todo_list
+# <img src="https://github.com/enriquedlh97/todo_list/blob/main/todo_list/todo_list/Assets.xcassets/AppIcon.appiconset/120.png" width="90"> todo_list
 Simple todo app to keep track of tasks
 
 <p align="center">
