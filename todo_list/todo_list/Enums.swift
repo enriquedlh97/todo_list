@@ -6,3 +6,8 @@
 //
 
 import SwiftUI
+
+enum AddEditTask: String {
+    case addTask
+    case editTask
+}
