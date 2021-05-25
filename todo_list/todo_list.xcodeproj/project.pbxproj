@@ -76,6 +76,7 @@
 		531EAE98265C86D6009AF8E3 /* todo_list */ = {
 			isa = PBXGroup;
 			children = (
+				53FD3C9C265D599400929F5F /* Fonts */,
 				531EAE99265C86D6009AF8E3 /* todo_listApp.swift */,
 				53FD3C84265D516000929F5F /* Colors.xcassets */,
 				531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */,
@@ -97,6 +98,13 @@
 				531EAEA0265C86D7009AF8E3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		53FD3C9C265D599400929F5F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
