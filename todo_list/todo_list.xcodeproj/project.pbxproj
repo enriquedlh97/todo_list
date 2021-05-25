@@ -12,11 +12,11 @@
 		531D3262265D7E73003743C4 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D3261265D7E73003743C4 /* StatusView.swift */; };
 		531D3265265D7FD8003743C4 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D3264265D7FD8003743C4 /* CategoryView.swift */; };
 		531D3268265D8753003743C4 /* AddEditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531D3267265D8753003743C4 /* AddEditTaskView.swift */; };
+		531D326B265DA17A003743C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 531D326A265DA17A003743C4 /* GoogleService-Info.plist */; };
 		531EAE9A265C86D6009AF8E3 /* todo_listApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531EAE99265C86D6009AF8E3 /* todo_listApp.swift */; };
 		531EAE9C265C86D6009AF8E3 /* ListTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */; };
 		531EAE9E265C86D7009AF8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531EAE9D265C86D7009AF8E3 /* Assets.xcassets */; };
 		531EAEA1265C86D7009AF8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531EAEA0265C86D7009AF8E3 /* Preview Assets.xcassets */; };
-		531EAEAA265C8965009AF8E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 531EAEA9265C8965009AF8E3 /* GoogleService-Info.plist */; };
 		531EAEAE265C8AA9009AF8E3 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 531EAEAD265C8AA9009AF8E3 /* FirebaseAuth */; };
 		531EAEB0265C8AA9009AF8E3 /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 531EAEAF265C8AA9009AF8E3 /* FirebaseFirestoreSwift-Beta */; };
 		531EAEB2265C8AA9009AF8E3 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 531EAEB1265C8AA9009AF8E3 /* FirebaseStorage */; };
@@ -40,13 +40,13 @@
 		531D3261265D7E73003743C4 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		531D3264265D7FD8003743C4 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 		531D3267265D8753003743C4 /* AddEditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTaskView.swift; sourceTree = "<group>"; };
+		531D326A265DA17A003743C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		531EAE96265C86D6009AF8E3 /* todo_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todo_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		531EAE99265C86D6009AF8E3 /* todo_listApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todo_listApp.swift; sourceTree = "<group>"; };
 		531EAE9B265C86D6009AF8E3 /* ListTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTaskView.swift; sourceTree = "<group>"; };
 		531EAE9D265C86D7009AF8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		531EAEA0265C86D7009AF8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		531EAEA2265C86D7009AF8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		531EAEA9265C8965009AF8E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53FD3C84265D516000929F5F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		53FD3C8F265D52FE00929F5F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		53FD3C92265D53B400929F5F /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 				53FD3CA4265D5CF000929F5F /* Modifiers.swift */,
 				53FD3CA7265D5D8F00929F5F /* Enums.swift */,
 				531D3267265D8753003743C4 /* AddEditTaskView.swift */,
-				531EAEA9265C8965009AF8E3 /* GoogleService-Info.plist */,
+				531D326A265DA17A003743C4 /* GoogleService-Info.plist */,
 				531EAE9F265C86D7009AF8E3 /* Preview Content */,
 			);
 			path = todo_list;
@@ -206,8 +206,8 @@
 				531EAEA1265C86D7009AF8E3 /* Preview Assets.xcassets in Resources */,
 				53FD3C85265D516000929F5F /* Colors.xcassets in Resources */,
 				531EAE9E265C86D7009AF8E3 /* Assets.xcassets in Resources */,
-				531EAEAA265C8965009AF8E3 /* GoogleService-Info.plist in Resources */,
 				53FD3CA1265D5C9100929F5F /* Baloo2-Bold.ttf in Resources */,
+				531D326B265DA17A003743C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
