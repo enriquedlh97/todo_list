@@ -19,6 +19,7 @@
 		531EAEB6265C8AA9009AF8E3 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 531EAEB5265C8AA9009AF8E3 /* FirebaseFirestore */; };
 		531EAEB8265C8AA9009AF8E3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 531EAEB7265C8AA9009AF8E3 /* FirebaseDatabase */; };
 		53FD3C85265D516000929F5F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53FD3C84265D516000929F5F /* Colors.xcassets */; };
+		53FD3C90265D52FE00929F5F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FD3C8F265D52FE00929F5F /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		531EAEA2265C86D7009AF8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		531EAEA9265C8965009AF8E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		53FD3C84265D516000929F5F /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		53FD3C8F265D52FE00929F5F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				53FD3C84265D516000929F5F /* Colors.xcassets */,
 				531EAE9B265C86D6009AF8E3 /* ContentView.swift */,
 				531EAE9D265C86D7009AF8E3 /* Assets.xcassets */,
+				53FD3C8F265D52FE00929F5F /* Task.swift */,
 				531EAEA2265C86D7009AF8E3 /* Info.plist */,
 				531EAEA9265C8965009AF8E3 /* GoogleService-Info.plist */,
 				531EAE9F265C86D7009AF8E3 /* Preview Content */,
@@ -170,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				531EAE9C265C86D6009AF8E3 /* ContentView.swift in Sources */,
+				53FD3C90265D52FE00929F5F /* Task.swift in Sources */,
 				531EAE9A265C86D6009AF8E3 /* todo_listApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
