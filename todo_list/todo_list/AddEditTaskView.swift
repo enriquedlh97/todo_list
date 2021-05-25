@@ -79,12 +79,14 @@ struct AddEditTaskView: View {
                 Text(mode == .addTask ? "Add" : "Edit")
                     .foregroundColor(Color.white)
                     .modifier(Title())
-
             }
             .frame(width: 120, height:50) .background(RoundedRectangle(cornerRadius: 10   , style: .continuous))
             .cornerRadius(20)
             .foregroundColor(Color("ElectronBlue"))
             .padding(20)
+        }
+        .alert(isPresented: $alertTask) {
+            Alert(title: Text("Error in task"), message: Text("Enter task please"), dismissButton: .default(Text("OK")))
         }
         .navigationBarTitle(mode == .addTask ? "Add Task" : "Edit Task", displayMode: .inline)
         .navigationBarColor(UIColor(named: "ElectronBlue"), UIColor(named: "SwanWhite"))
@@ -101,6 +103,6 @@ struct AddEditTaskView: View {
 
 struct AddEditTaskView_Previews: PreviewProvider {
     static var previews: some View {
-        AddEditTaskView(task: Task.dummy, mode: .addTask)
+        AddEditTaskView(tasks: TaskModel(), task: Task.dummy, mode: .addTask)
     }
 }
