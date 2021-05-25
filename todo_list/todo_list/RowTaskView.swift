@@ -15,10 +15,13 @@ struct RowTaskView: View {
         VStack {
             HStack {
                 StatusView(status: task.status)
+                Spacer()
                 Text(task.task)
                     .modifier(Label())
+                Spacer()
                 CategoryView(category: task.category)
             }
+            .padding(.horizontal, 20)
         }
     }
 }
