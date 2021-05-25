@@ -14,12 +14,19 @@ struct ListTaskView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                List(tasks.tasks) { task in
-                    NavigationLink(
-                        destination: AddEditTaskView(tasks: tasks, task: task, mode: .editTask),
-                        label: {
-                            RowTaskView(task: task)
-                        })
+                List {
+                    ForEach(tasks.tasks) { task in
+                        NavigationLink(
+                            destination: AddEditTaskView(tasks: tasks, task: task, mode: .editTask),
+                            label: {
+                                RowTaskView(task: task)
+                            })
+                    }
+                    .onDelete { indexSet in
+                                        for index in indexSet {
+                                            tasks.removeData(task: tasks.tasks[index])
+                                        }
+                                    }
                 }
                 VStack {
                     Spacer()
