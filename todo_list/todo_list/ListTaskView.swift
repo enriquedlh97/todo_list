@@ -22,7 +22,7 @@ struct ListTaskView: View {
                     // Es para poner el título
                     ToolbarItem(placement: .principal) {
                         Text("Tasks")
-                            .font(.title)
+                            .modifier(Title())
                             .foregroundColor(Color("SwanWhite"))
                     }
                 }
