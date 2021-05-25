@@ -25,12 +25,24 @@ struct ListTaskView: View {
                                             
                                         } label: {
                                             HStack {
-                                                
-                                                if task.completed {
-                                                    
-                                                } else {
-                                                    Text("Mark as finished")
-                                                }
+                                                Text("Delete")
+                                                Image(systemName: "xmark.circle.fill")
+                                            }
+                                        }
+                                        Button {
+                                            
+                                        } label: {
+                                            HStack {
+                                                Text("Mark as finished")
+                                                Image(systemName: "checkmark.circle")
+                                            }
+                                        }
+                                        Button {
+                                            
+                                        } label: {
+                                            HStack {
+                                                Text("Mark as unfinished")
+                                                Image(systemName: "wrench.and.screwdriver")
                                             }
                                         }
                                     }
