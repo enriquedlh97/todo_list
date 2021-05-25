@@ -52,6 +52,9 @@ struct ListTaskView: View {
                         .modifier(Title())
                         .foregroundColor(Color("SwanWhite"))
                 }
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    EditButton()
+                }
             }
         }
     }
