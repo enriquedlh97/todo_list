@@ -36,7 +36,7 @@ class TaskModel: ObservableObject {
     // Función para agregar datos a la base de datos
     func addData(task: Task) {
         do {
-            let _ = try db.collection("App11-Todo").addDocument(from: task)
+            let _ = try db.collection("Todos").addDocument(from: task)
         }
         catch {
             print(error)
@@ -47,7 +47,7 @@ class TaskModel: ObservableObject {
     func updateData(task: Task) {
         if let taskID = task.id {
             do {
-                try db.collection("App11-Todo").document(taskID).setData(from: task)
+                try db.collection("Todos").document(taskID).setData(from: task)
             }
             catch {
                 print("There was an error while trying to update a task \(error.localizedDescription).")
@@ -58,7 +58,7 @@ class TaskModel: ObservableObject {
     // Función para borrar datos de la base de datos
     func removeData(task: Task) {
         if let taskID = task.id {
-            db.collection("App11-Todo").document(taskID).delete { (error) in // (1)
+            db.collection("Todos").document(taskID).delete { (error) in // (1)
                 if let error = error {
                     print("Error removing document: \(error.localizedDescription)")
                 }
