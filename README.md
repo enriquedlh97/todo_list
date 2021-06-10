@@ -13,4 +13,10 @@ Simple todo app to keep track of tasks
 
 ```
 Firebase 8.0.0
+- FirebaseAuth
+- FirebaseDatabase
+- FirebaseFirestore
+- FirebaseFirestoreSwift-Beta
+- FirebaseStorage
+- FirebaseStorageSwift-Beta
 ```
